@@ -1,0 +1,6 @@
+framework module simplifycommerce {
+  umbrella header "simplifycommerce-umbrella.h"
+
+  export *
+  module * { export * }
+}

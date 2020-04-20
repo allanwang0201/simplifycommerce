@@ -1,0 +1,22 @@
+{
+  "name": "simplifycommerce",
+  "version": "0.1.0",
+  "summary": "A short description of simplifycommerce.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/allanwang0201@gmail.com/simplifycommerce",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "allanwang0201@gmail.com": "allanwang0201@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/allanwang0201@gmail.com/simplifycommerce.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "simplifycommerce/Classes/**/*"
+}
