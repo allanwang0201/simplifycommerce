@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 simplify commerce payment by commonbank
                        DESC
 
-  s.homepage         = 'https://github.com/allanwang0201@gmail.com/simplifycommerce'
+  s.homepage         = 'https://www.lzjcity.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'allanwang0201@gmail.com' => 'allanwang0201@gmail.com' }
-  s.source           = { :git => 'https://github.com/allanwang0201@gmail.com/simplifycommerce.git', :tag => s.version.to_s }
+  s.author           = { 'allanwang0201' => 'allanwang0201' }
+  s.source           = { :git => 'https://github.com/allanwang0201/simplifycommerce.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.1'
 
-  s.source_files = 'simplifycommerce/Classes/**/*'
+  s.source_files = 'simplifycommerce/Classes/**/*.{swift}'
   s.resource_bundles = {
-     'simplifycommerce' => ['Simplify-SDK-Swift/**/*.{lproj,storyboard,xib,xcassets,json,imageset,png}']
+     'simplifycommerce' => ['simplifycommerce/Classes/**/*.{lproj,storyboard,xib,xcassets,json,imageset,png,pdf}']
   }
-
+  s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'simplifycommerce' => ['simplifycommerce/Assets/*.png']
   # }
