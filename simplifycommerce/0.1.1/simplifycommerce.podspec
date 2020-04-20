@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 simplify commerce payment by commonbank
                        DESC
 
-  s.homepage         = 'https://www.lzjcity.com'
+  s.homepage         = 'https://github.com/allanwang0201/simplifycommerce.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'allanwang0201' => 'allanwang0201' }
+  s.author           = { 'allanwang0201' => 'allanwang0201@gmail.com' }
   s.source           = { :git => 'https://github.com/allanwang0201/simplifycommerce.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
