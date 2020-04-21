@@ -27,7 +27,7 @@ class Logger {
         for (key, value) in request.allHTTPHeaderFields ?? [:] {
             logMessage += "\n-- \(key): \(value)"
         }
-        os_log(.debug, "%@", logMessage)
+        //os_log(.debug, "%@", logMessage)
         #endif
     }
     
@@ -44,7 +44,7 @@ class Logger {
         for (key, value) in httpResponse?.allHeaderFields ?? [:] {
             logMessage += "\n-- \(key): \(value)"
         }
-        os_log(.debug, "%@", logMessage)
+        //os_log(.debug, "%@", logMessage)
         #endif
     }
 }
