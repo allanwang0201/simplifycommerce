@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'simplifycommerce_Example' do
-  pod 'simplifycommerce', :path => '../'
+  pod 'simplifycommerce', :path => '../simplifycommerce.podspec'
 
   target 'simplifycommerce_Tests' do
     inherit! :search_paths
