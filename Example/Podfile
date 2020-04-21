@@ -1,7 +1,11 @@
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/allanwang0201/privtePods.git'
 use_frameworks!
 
+platform :ios, '12.1'
+
 target 'simplifycommerce_Example' do
-  pod 'simplifycommerce', :path => '../simplifycommerce.podspec'
+  pod 'simplifycommerce', '~> 0.1.2'
 
   target 'simplifycommerce_Tests' do
     inherit! :search_paths

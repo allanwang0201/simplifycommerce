@@ -7,36 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06EACB7662BB3A6DD14B229A0F21A4D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 743EBE06AC8B9D9A33BE950E159FA4F2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046D13052F648BAD74173D91B8FDE878 /* simplifycommerce.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9071B24FE8139A1A7ABD7D2FF90DEEA /* simplifycommerce.bundle */; };
+		0C3D7AD4D54EF1FC0E52666F5FBFD5BF /* FoundationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384EE94416FD08ED496E9D79D1FF3D2 /* FoundationProtocols.swift */; };
+		105D46022823131A23AFB5FDA2554EFE /* URLSessionPinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D73C01D0700839F7F2FDD699B4730D /* URLSessionPinner.swift */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D3E3A9A2B22B98441B3506B8E9AF82 /* UIApplication+StrictKeyWindow.m */; };
+		11CA5434B6FCC8AB34E230A918EC01C0 /* CardBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9502F59E118CD6EAD64C5CBE9D917 /* CardBrand.swift */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 3547D4D64B5D49CA8757098CF2B49E0E /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = E043C8880CA8D69E210DD2E1B447A10F /* UIImage+Compare.m */; };
+		364F1B8E7B64A9461D3B0C879FC30F54 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470B3E9FCD795F21246795D008B412D /* Logger.swift */; };
+		37568BA27136AF24E1BF670E1F5DF4A3 /* CardEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226774325F76E23CC80850D6D8DFB814 /* CardEntryViewModel.swift */; };
+		39C62EF35426D05EBC459E6A4CAA3E88 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8564A4B2354501BE33FE5954073ABD3 /* Result.swift */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DE8CB954F385FD6C571DCD33695A6C /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		47785093B748113752315BD49C6EC7D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		4B5E88B21DD8C46990A5C5D241E1F352 /* CardBrand.Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFE6DAD644F4F186A2E88959C40EF8 /* CardBrand.Details.swift */; };
+		4D3A1CEF4F5D84F585F648516263EFD2 /* ThreeDS1WebViewController_internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6599EBDB79C32BA87CC15AFB73417 /* ThreeDS1WebViewController_internal.swift */; };
 		5099113CBE9D1B20257A91D6D0A3772C /* Pods-simplifycommerce_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C8EE2B07AD660CBEA04700AEBFD44F /* Pods-simplifycommerce_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EEA18D39A1979FB8E0D58602E28044 /* CardEntryView_Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0CB4251BC235D74DCD4ACDDAA55F0 /* CardEntryView_Internal.swift */; };
 		599A4BE3E6F59F9DCA406B682A6F012C /* Pods-simplifycommerce_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EE2864205A8B36916515B046F9DE6D /* Pods-simplifycommerce_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A9C28D0C1E2228E32FEACB53DE17D6A /* ExpiryPickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348CAB1EBA20A86C1A8E1110F42D4E90 /* ExpiryPickerField.swift */; };
+		5DCE67CB82AA6D1E2ED960615DF89EDC /* CardEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8EEF3B461482A5DB7A258DF0623A7 /* CardEntryView.swift */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		73F9663A2794852F61E80058AA176BD5 /* simplifycommerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4080AC7014692E333CA042E2ACAD8 /* simplifycommerce-dummy.m */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5685A49F49783A48FD7D864D30C36B7 /* FBSnapshotTestCase-dummy.m */; };
+		71495AE966A51E95033C92C54B6DE6A0 /* SimplifyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A790223EC9067391DAA4112938BD4B /* SimplifyError.swift */; };
 		756430145837E9F9CC694EC403F40815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		794C74B559C99C505F6E0196E5538CB7 /* LuhnValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C376F57FA267A3FA2D185A420564A3 /* LuhnValidator.swift */; };
+		7ACB43E9E9BA7C74F647D77B4D9E1D48 /* Bundle+SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354A394966E718F0A5B12E00E7D7D334 /* Bundle+SDK.swift */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799AEC8FF55FF057B26991AC186AAFFD /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C0077513A0DCB813BB87F1769200B8 /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DE8BFEA64E02B2639A13C1711FF57E /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901640ADFBEFC98910B5CF5B77A7DF46 /* SimplifyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E773AB142088365A3DB6892FCF4AB3 /* SimplifyMap.swift */; };
+		918F97D1DE9A6246C827CB9CD3AB3004 /* Simplify_Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F5620194AF877537EF5EF90DB14334 /* Simplify_Internal.swift */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5809226E88A769F4BA9E2285202E266D /* SwiftSupport.swift */; };
 		9D829F976873BBC2ED93E152B3086892 /* Pods-simplifycommerce_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF5C64CB81FAD5219EC3674C2FDB95 /* Pods-simplifycommerce_Tests-dummy.m */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F7A3555C13B2A86C68AE235F2304BE /* UIImage+Snapshot.m */; };
+		ABEFBE619105F890CDF8F0736A3E6A15 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB704A1EA5A3A102CE8E06E04B27740 /* BuildConfig.swift */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D320BEDE964D5BC622442EFD49D71F82 /* simplifycommerce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6253C122B41F9C0C712BA8E02573B272 /* simplifycommerce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = D1EE1EC8B79264183A6E4DF84110B02E /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7A83C9B6442C60CCC36FD5A007A38E3 /* SimplifyMap_Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67C9F22980F71F0F7F4C18DFA8AD63 /* SimplifyMap_Internal.swift */; };
+		B89C06ED878B32A26EE9E6BD59D36E35 /* ThreeDS1WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0E53EB45F04B1CE1314B7780927C2 /* ThreeDS1WebViewController.swift */; };
+		BC02CAE07F8FFAB343244DDBA5DDF1EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE4E6D3A838C501A21398A0B682DDA2 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BC9E24006F90CFFC620D09E7C31111 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D3CF319E88A9ADDCB5E63DC81E589937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3661B3BFA65925BA447774348B5EB1 /* Assets.xcassets */; };
+		DCEAB79476355270466CF195C58378C3 /* SimplifyResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7AD9F7061477B972F14D364D9EF42 /* SimplifyResponseHandler.swift */; };
+		DE803EC90781D9AF0CB7147A14E98984 /* WebKitProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D62845C082630EA3FC655FCC9B3F07D /* WebKitProtocols.swift */; };
+		E075C66F7E62164A1744FD5521EE2D6F /* UIView+SuperViewHugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822FC22CB4D5ED216DE336FDA69E37C9 /* UIView+SuperViewHugging.swift */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E88D9D0823FC99A055E35A84D7BF0E77 /* FBSnapshotTestCasePlatform.m */; };
+		EBDB886EC47F141F0109469CA0E0A76A /* DecoratedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70223BE329C8A8EDBA07776F4768168D /* DecoratedTextField.swift */; };
 		EF8FC17342E6578892F236292DB0C09B /* Pods-simplifycommerce_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA44C7EA72A5C3998B207A69BA7F18 /* Pods-simplifycommerce_Example-dummy.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 2034215FA4EB6F510A61F453938A287B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F20A0A0D03971ACF8D3DD11534A08ADF /* simplifycommerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4D26DF92DB5429698FC8A3A53BF77 /* simplifycommerce-dummy.m */; };
+		F47BC2178A9F50200CE8A3F3932A57BA /* Simplify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8F57D88716A34FFAA3DB691D62991 /* Simplify.swift */; };
+		F6CB0F87252E12E4DADE404477B68B9E /* simplifycommerce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF4E92C0CBF384DE66448FCFEF2F184 /* simplifycommerce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9995AFBC80CB9758EBC0F7004391D895 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,71 +87,110 @@
 			remoteGlobalIDString = F8F4A89B802DC2BB85683B7FA284FD1E;
 			remoteInfo = simplifycommerce;
 		};
+		EAAEC0051FB6A3074078E3F2EC20998C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A03D2193F8C4257E7B185746F60B5E0F;
+			remoteInfo = "simplifycommerce-simplifycommerce";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00CF5C64CB81FAD5219EC3674C2FDB95 /* Pods-simplifycommerce_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-simplifycommerce_Tests-dummy.m"; sourceTree = "<group>"; };
+		00DE8CB954F385FD6C571DCD33695A6C /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		0337F491B190A6CD4060B32744132B06 /* Pods-simplifycommerce_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-simplifycommerce_Example.modulemap"; sourceTree = "<group>"; };
 		06D1982407FA83CD256DBE2A6556B8B4 /* Pods-simplifycommerce_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-simplifycommerce_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0821A8CF7F2CDD539835701AEC6FF04A /* Pods_simplifycommerce_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simplifycommerce_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D8EEF3B461482A5DB7A258DF0623A7 /* CardEntryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardEntryView.swift; path = simplifycommerce/Classes/CardEntryView.swift; sourceTree = "<group>"; };
+		0821A8CF7F2CDD539835701AEC6FF04A /* Pods_simplifycommerce_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_simplifycommerce_Tests.framework; path = "Pods-simplifycommerce_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB8F57D88716A34FFAA3DB691D62991 /* Simplify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Simplify.swift; path = simplifycommerce/Classes/Simplify.swift; sourceTree = "<group>"; };
 		0EB48A39250F353E0F528CAAF021DBF1 /* Pods-simplifycommerce_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simplifycommerce_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1AF4080AC7014692E333CA042E2ACAD8 /* simplifycommerce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "simplifycommerce-dummy.m"; sourceTree = "<group>"; };
-		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2034215FA4EB6F510A61F453938A287B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		226774325F76E23CC80850D6D8DFB814 /* CardEntryViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardEntryViewModel.swift; path = simplifycommerce/Classes/Internal/CardEntryView/CardEntryViewModel.swift; sourceTree = "<group>"; };
 		28EE2864205A8B36916515B046F9DE6D /* Pods-simplifycommerce_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-simplifycommerce_Example-umbrella.h"; sourceTree = "<group>"; };
-		2A58EF03BF70F3EBA71E6079AB696A8D /* simplifycommerce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "simplifycommerce-Info.plist"; sourceTree = "<group>"; };
-		2D7EB53C95CF0FEE5B85D8BEE753897D /* simplifycommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = simplifycommerce.debug.xcconfig; sourceTree = "<group>"; };
+		2A4939D54A0035664702E0105C5CE1EB /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		32BBFD9351AA69770D033BF3B6E7638E /* simplifycommerce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "simplifycommerce-prefix.pch"; sourceTree = "<group>"; };
+		348CAB1EBA20A86C1A8E1110F42D4E90 /* ExpiryPickerField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpiryPickerField.swift; path = simplifycommerce/Classes/Internal/CardEntryView/Views/ExpiryPickerField.swift; sourceTree = "<group>"; };
+		3547D4D64B5D49CA8757098CF2B49E0E /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		354A394966E718F0A5B12E00E7D7D334 /* Bundle+SDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+SDK.swift"; path = "simplifycommerce/Classes/Internal/System Extensions/Bundle+SDK.swift"; sourceTree = "<group>"; };
+		35E4D26DF92DB5429698FC8A3A53BF77 /* simplifycommerce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "simplifycommerce-dummy.m"; sourceTree = "<group>"; };
+		3CE0CB4251BC235D74DCD4ACDDAA55F0 /* CardEntryView_Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardEntryView_Internal.swift; path = simplifycommerce/Classes/Internal/CardEntryView/CardEntryView_Internal.swift; sourceTree = "<group>"; };
 		3ED8258EEDD0A91777B71631A8A6AE8E /* Pods-simplifycommerce_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simplifycommerce_Example-Info.plist"; sourceTree = "<group>"; };
-		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3EEFC97D5784ADEE01B2FC913DF40861 /* simplifycommerce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = simplifycommerce.modulemap; sourceTree = "<group>"; };
 		41E44F5DF6EEE347205D191733EEC426 /* Pods-simplifycommerce_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simplifycommerce_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4934F4934A16638128E68D20EB5D309E /* simplifycommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = simplifycommerce.debug.xcconfig; sourceTree = "<group>"; };
 		4AEA44C7EA72A5C3998B207A69BA7F18 /* Pods-simplifycommerce_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-simplifycommerce_Example-dummy.m"; sourceTree = "<group>"; };
-		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5591FBD63609A64B4F1B68746F3A7E60 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		5809226E88A769F4BA9E2285202E266D /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6253C122B41F9C0C712BA8E02573B272 /* simplifycommerce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "simplifycommerce-umbrella.h"; sourceTree = "<group>"; };
-		6468F176B4CF82AB78B3E020D1CF40A7 /* simplifycommerce.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = simplifycommerce.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		63A023F16F1BF0BEC899C08A40E730B7 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		63F7A3555C13B2A86C68AE235F2304BE /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		64D73C01D0700839F7F2FDD699B4730D /* URLSessionPinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionPinner.swift; path = simplifycommerce/Classes/Internal/Core/URLSessionPinner.swift; sourceTree = "<group>"; };
 		6B015728A84F020743ECBC2F8A2A88A2 /* Pods-simplifycommerce_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-simplifycommerce_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70223BE329C8A8EDBA07776F4768168D /* DecoratedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecoratedTextField.swift; path = simplifycommerce/Classes/Internal/CardEntryView/Views/DecoratedTextField.swift; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		72C8EE2B07AD660CBEA04700AEBFD44F /* Pods-simplifycommerce_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-simplifycommerce_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7637E3D305E50DF7CF7EBA618C9B9241 /* simplifycommerce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = simplifycommerce.modulemap; sourceTree = "<group>"; };
+		743EBE06AC8B9D9A33BE950E159FA4F2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		76E773AB142088365A3DB6892FCF4AB3 /* SimplifyMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimplifyMap.swift; path = simplifycommerce/Classes/SimplifyMap.swift; sourceTree = "<group>"; };
+		78D3E3A9A2B22B98441B3506B8E9AF82 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		799AEC8FF55FF057B26991AC186AAFFD /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		7A85F1613C0B328585DD5A24C7C79918 /* Pods-simplifycommerce_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simplifycommerce_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		822FC22CB4D5ED216DE336FDA69E37C9 /* UIView+SuperViewHugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SuperViewHugging.swift"; path = "simplifycommerce/Classes/Internal/System Extensions/UIView+SuperViewHugging.swift"; sourceTree = "<group>"; };
+		82901447836DB04BD057554091760E4D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		83041C28EF778719299F9783723D421D /* Pods-simplifycommerce_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-simplifycommerce_Example-frameworks.sh"; sourceTree = "<group>"; };
+		85E0E53EB45F04B1CE1314B7780927C2 /* ThreeDS1WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreeDS1WebViewController.swift; path = simplifycommerce/Classes/ThreeDS1WebViewController.swift; sourceTree = "<group>"; };
 		884902E95BAB5573DF4043FC02D0D52D /* Pods-simplifycommerce_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simplifycommerce_Tests-Info.plist"; sourceTree = "<group>"; };
-		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		88F3D3E458E08D55BAFDA1388F51D0C2 /* Pods_simplifycommerce_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simplifycommerce_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8889108BB4E15146FF6DED6576BCDC79 /* simplifycommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = simplifycommerce.release.xcconfig; sourceTree = "<group>"; };
+		88C7AD9F7061477B972F14D364D9EF42 /* SimplifyResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimplifyResponseHandler.swift; path = simplifycommerce/Classes/Internal/SimplifyResponseHandler.swift; sourceTree = "<group>"; };
+		88F3D3E458E08D55BAFDA1388F51D0C2 /* Pods_simplifycommerce_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_simplifycommerce_Example.framework; path = "Pods-simplifycommerce_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF1CAFC8B10862E507E45E6B70B59AE /* Pods-simplifycommerce_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simplifycommerce_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8D62845C082630EA3FC655FCC9B3F07D /* WebKitProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebKitProtocols.swift; path = "simplifycommerce/Classes/Internal/System Extensions/WebKitProtocols.swift"; sourceTree = "<group>"; };
+		92BC9E24006F90CFFC620D09E7C31111 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		93B50FE4087AB8136E750A043FB5C2A2 /* Pods-simplifycommerce_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-simplifycommerce_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		979F93A20776F43C5DD211EB8F74F806 /* simplifycommerce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "simplifycommerce-Info.plist"; sourceTree = "<group>"; };
+		9995AFBC80CB9758EBC0F7004391D895 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		99C9502F59E118CD6EAD64C5CBE9D917 /* CardBrand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardBrand.swift; path = simplifycommerce/Classes/Internal/CardEntryView/CardBrand.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A92485834D0FF2E8302C7ABDD5E51D00 /* Pods-simplifycommerce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simplifycommerce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD596529086F90C15BECE8CD489DCE7E /* simplifycommerce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "simplifycommerce-prefix.pch"; sourceTree = "<group>"; };
-		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B536A77F80DDF2D1F2127634E54AD09A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B1A790223EC9067391DAA4112938BD4B /* SimplifyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimplifyError.swift; path = simplifycommerce/Classes/SimplifyError.swift; sourceTree = "<group>"; };
+		B1C376F57FA267A3FA2D185A420564A3 /* LuhnValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuhnValidator.swift; path = simplifycommerce/Classes/Internal/CardEntryView/LuhnValidator.swift; sourceTree = "<group>"; };
 		BD75B2F315FFC363EE8992B3D12FC607 /* Pods-simplifycommerce_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-simplifycommerce_Tests.modulemap"; sourceTree = "<group>"; };
-		BF1EBB6D7F10C901B7CBE9D66DA56587 /* simplifycommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = simplifycommerce.release.xcconfig; sourceTree = "<group>"; };
-		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		D8BD2E466BA17C564F1CF68FEF6A71F7 /* simplifycommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = simplifycommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E10039E8A2315F3C5C49FEE4A74DAC02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF67C9F22980F71F0F7F4C18DFA8AD63 /* SimplifyMap_Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimplifyMap_Internal.swift; path = simplifycommerce/Classes/Internal/Core/SimplifyMap_Internal.swift; sourceTree = "<group>"; };
+		C5685A49F49783A48FD7D864D30C36B7 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		C9071B24FE8139A1A7ABD7D2FF90DEEA /* simplifycommerce.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = simplifycommerce.bundle; path = "simplifycommerce-simplifycommerce.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A6599EBDB79C32BA87CC15AFB73417 /* ThreeDS1WebViewController_internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreeDS1WebViewController_internal.swift; path = simplifycommerce/Classes/Internal/ThreeDS1WebViewController_internal.swift; sourceTree = "<group>"; };
+		CEB704A1EA5A3A102CE8E06E04B27740 /* BuildConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuildConfig.swift; path = simplifycommerce/Classes/Internal/Core/BuildConfig.swift; sourceTree = "<group>"; };
+		CEF4E92C0CBF384DE66448FCFEF2F184 /* simplifycommerce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "simplifycommerce-umbrella.h"; sourceTree = "<group>"; };
+		D1EE1EC8B79264183A6E4DF84110B02E /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		D384EE94416FD08ED496E9D79D1FF3D2 /* FoundationProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationProtocols.swift; path = "simplifycommerce/Classes/Internal/System Extensions/FoundationProtocols.swift"; sourceTree = "<group>"; };
+		D8564A4B2354501BE33FE5954073ABD3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = simplifycommerce/Classes/Result.swift; sourceTree = "<group>"; };
+		D8BD2E466BA17C564F1CF68FEF6A71F7 /* simplifycommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = simplifycommerce.framework; path = simplifycommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3661B3BFA65925BA447774348B5EB1 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = simplifycommerce/Classes/Assets.xcassets; sourceTree = "<group>"; };
+		E043C8880CA8D69E210DD2E1B447A10F /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		E1EFE6DAD644F4F186A2E88959C40EF8 /* CardBrand.Details.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardBrand.Details.swift; path = simplifycommerce/Classes/Internal/CardEntryView/CardBrand.Details.swift; sourceTree = "<group>"; };
+		E3DE8BFEA64E02B2639A13C1711FF57E /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		E88D9D0823FC99A055E35A84D7BF0E77 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		EBE4E6D3A838C501A21398A0B682DDA2 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		F121FF538AC0171D4292B0DC88943385 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		F470B3E9FCD795F21246795D008B412D /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = simplifycommerce/Classes/Internal/Core/Logger.swift; sourceTree = "<group>"; };
+		F4F5620194AF877537EF5EF90DB14334 /* Simplify_Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Simplify_Internal.swift; path = simplifycommerce/Classes/Internal/Core/Simplify_Internal.swift; sourceTree = "<group>"; };
 		F723050DD5AEA876C25091932BC47619 /* Pods-simplifycommerce_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simplifycommerce_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		F7C0077513A0DCB813BB87F1769200B8 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		FF13B608E2FE7A87FF17F86FB68092E4 /* ResourceBundle-simplifycommerce-simplifycommerce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-simplifycommerce-simplifycommerce-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		083A7D1D19E042115635151113D27C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC02CAE07F8FFAB343244DDBA5DDF1EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0F59D5B614D0DEC7189CB4063F38AC69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,19 +199,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		195B5FD9501E11198E43FD3BB7C98B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1180A6CE7CC89AF3402827F187B1730 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				47785093B748113752315BD49C6EC7D6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9BDAFE0455DC10BBE32C90317E319E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06EACB7662BB3A6DD14B229A0F21A4D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +228,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02CE0E99CE0596182890E123577A8513 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF13B608E2FE7A87FF17F86FB68092E4 /* ResourceBundle-simplifycommerce-simplifycommerce-Info.plist */,
+				3EEFC97D5784ADEE01B2FC913DF40861 /* simplifycommerce.modulemap */,
+				35E4D26DF92DB5429698FC8A3A53BF77 /* simplifycommerce-dummy.m */,
+				979F93A20776F43C5DD211EB8F74F806 /* simplifycommerce-Info.plist */,
+				32BBFD9351AA69770D033BF3B6E7638E /* simplifycommerce-prefix.pch */,
+				CEF4E92C0CBF384DE66448FCFEF2F184 /* simplifycommerce-umbrella.h */,
+				4934F4934A16638128E68D20EB5D309E /* simplifycommerce.debug.xcconfig */,
+				8889108BB4E15146FF6DED6576BCDC79 /* simplifycommerce.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/simplifycommerce";
+			sourceTree = "<group>";
+		};
+		1EF9FDC47AE12702E1F2BF1E9C07889C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD3661B3BFA65925BA447774348B5EB1 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2040436C0F89F3C4C219E80AC760D1D3 /* Pods-simplifycommerce_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,38 +269,6 @@
 			path = "Target Support Files/Pods-simplifycommerce_Example";
 			sourceTree = "<group>";
 		};
-		3619A440558C228C5FC4E54BED43137C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				88F3D3E458E08D55BAFDA1388F51D0C2 /* Pods_simplifycommerce_Example.framework */,
-				0821A8CF7F2CDD539835701AEC6FF04A /* Pods_simplifycommerce_Tests.framework */,
-				D8BD2E466BA17C564F1CF68FEF6A71F7 /* simplifycommerce.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
-				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
-				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
-				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
-				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
-				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
-				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
-				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
-				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
-				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
-				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
-				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
-				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
-				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,20 +280,74 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8BA35BF1880892CEE1D69B9936362FAC /* Development Pods */ = {
+		7EA8A830B134DC81282AA1A311DB6E0B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C3442338F9F228B1D075F0DD948CA127 /* simplifycommerce */,
+				D627F7AD26DCB135F369745DE402ADEE /* FBSnapshotTestCase */,
+				9DEBEC915C7863D15436BF810BCE6D6B /* simplifycommerce */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+		851FC31CDE8C45DBD7B0A63AFD8AB3D5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+				2A4939D54A0035664702E0105C5CE1EB /* FBSnapshotTestCase.modulemap */,
+				C5685A49F49783A48FD7D864D30C36B7 /* FBSnapshotTestCase-dummy.m */,
+				F121FF538AC0171D4292B0DC88943385 /* FBSnapshotTestCase-Info.plist */,
+				82901447836DB04BD057554091760E4D /* FBSnapshotTestCase-prefix.pch */,
+				9995AFBC80CB9758EBC0F7004391D895 /* FBSnapshotTestCase-umbrella.h */,
+				63A023F16F1BF0BEC899C08A40E730B7 /* FBSnapshotTestCase.debug.xcconfig */,
+				5591FBD63609A64B4F1B68746F3A7E60 /* FBSnapshotTestCase.release.xcconfig */,
 			);
-			name = SwiftSupport;
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		9D0DE43BF55AB1D50C894564D578C87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				88F3D3E458E08D55BAFDA1388F51D0C2 /* Pods_simplifycommerce_Example.framework */,
+				0821A8CF7F2CDD539835701AEC6FF04A /* Pods_simplifycommerce_Tests.framework */,
+				C9071B24FE8139A1A7ABD7D2FF90DEEA /* simplifycommerce.bundle */,
+				D8BD2E466BA17C564F1CF68FEF6A71F7 /* simplifycommerce.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DEBEC915C7863D15436BF810BCE6D6B /* simplifycommerce */ = {
+			isa = PBXGroup;
+			children = (
+				CEB704A1EA5A3A102CE8E06E04B27740 /* BuildConfig.swift */,
+				354A394966E718F0A5B12E00E7D7D334 /* Bundle+SDK.swift */,
+				99C9502F59E118CD6EAD64C5CBE9D917 /* CardBrand.swift */,
+				E1EFE6DAD644F4F186A2E88959C40EF8 /* CardBrand.Details.swift */,
+				06D8EEF3B461482A5DB7A258DF0623A7 /* CardEntryView.swift */,
+				3CE0CB4251BC235D74DCD4ACDDAA55F0 /* CardEntryView_Internal.swift */,
+				226774325F76E23CC80850D6D8DFB814 /* CardEntryViewModel.swift */,
+				70223BE329C8A8EDBA07776F4768168D /* DecoratedTextField.swift */,
+				348CAB1EBA20A86C1A8E1110F42D4E90 /* ExpiryPickerField.swift */,
+				D384EE94416FD08ED496E9D79D1FF3D2 /* FoundationProtocols.swift */,
+				F470B3E9FCD795F21246795D008B412D /* Logger.swift */,
+				B1C376F57FA267A3FA2D185A420564A3 /* LuhnValidator.swift */,
+				D8564A4B2354501BE33FE5954073ABD3 /* Result.swift */,
+				0AB8F57D88716A34FFAA3DB691D62991 /* Simplify.swift */,
+				F4F5620194AF877537EF5EF90DB14334 /* Simplify_Internal.swift */,
+				B1A790223EC9067391DAA4112938BD4B /* SimplifyError.swift */,
+				76E773AB142088365A3DB6892FCF4AB3 /* SimplifyMap.swift */,
+				BF67C9F22980F71F0F7F4C18DFA8AD63 /* SimplifyMap_Internal.swift */,
+				88C7AD9F7061477B972F14D364D9EF42 /* SimplifyResponseHandler.swift */,
+				85E0E53EB45F04B1CE1314B7780927C2 /* ThreeDS1WebViewController.swift */,
+				C9A6599EBDB79C32BA87CC15AFB73417 /* ThreeDS1WebViewController_internal.swift */,
+				822FC22CB4D5ED216DE336FDA69E37C9 /* UIView+SuperViewHugging.swift */,
+				64D73C01D0700839F7F2FDD699B4730D /* URLSessionPinner.swift */,
+				8D62845C082630EA3FC655FCC9B3F07D /* WebKitProtocols.swift */,
+				1EF9FDC47AE12702E1F2BF1E9C07889C /* Resources */,
+				02CE0E99CE0596182890E123577A8513 /* Support Files */,
+			);
+			name = simplifycommerce;
+			path = simplifycommerce;
 			sourceTree = "<group>";
 		};
 		AC8825087DB0410C40E2E380A8B89422 /* Targets Support Files */ = {
@@ -249,19 +359,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+		AC97C83267AFDB411AA45F7E144977F1 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
-				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
-				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
-				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
-				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
-				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
-				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+				5809226E88A769F4BA9E2285202E266D /* SwiftSupport.swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -272,36 +375,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+		C1D24BAF6EA9A78DD65501A44250FFA3 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4BA2479549DD918290454B1CDCD0B92B /* Core */,
-				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
-				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+				743EBE06AC8B9D9A33BE950E159FA4F2 /* FBSnapshotTestCase.h */,
+				F7C0077513A0DCB813BB87F1769200B8 /* FBSnapshotTestCase.m */,
+				EBE4E6D3A838C501A21398A0B682DDA2 /* FBSnapshotTestCasePlatform.h */,
+				E88D9D0823FC99A055E35A84D7BF0E77 /* FBSnapshotTestCasePlatform.m */,
+				E3DE8BFEA64E02B2639A13C1711FF57E /* FBSnapshotTestController.h */,
+				799AEC8FF55FF057B26991AC186AAFFD /* FBSnapshotTestController.m */,
+				00DE8CB954F385FD6C571DCD33695A6C /* UIApplication+StrictKeyWindow.h */,
+				78D3E3A9A2B22B98441B3506B8E9AF82 /* UIApplication+StrictKeyWindow.m */,
+				2034215FA4EB6F510A61F453938A287B /* UIImage+Compare.h */,
+				E043C8880CA8D69E210DD2E1B447A10F /* UIImage+Compare.m */,
+				92BC9E24006F90CFFC620D09E7C31111 /* UIImage+Diff.h */,
+				3547D4D64B5D49CA8757098CF2B49E0E /* UIImage+Diff.m */,
+				D1EE1EC8B79264183A6E4DF84110B02E /* UIImage+Snapshot.h */,
+				63F7A3555C13B2A86C68AE235F2304BE /* UIImage+Snapshot.m */,
 			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		C3442338F9F228B1D075F0DD948CA127 /* simplifycommerce */ = {
-			isa = PBXGroup;
-			children = (
-				D8575FFA321D327E84BB009AC2748397 /* Pod */,
-				FCA85492CD13A3E74FE2F8528EB02327 /* Support Files */,
-			);
-			name = simplifycommerce;
-			path = ../..;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8BA35BF1880892CEE1D69B9936362FAC /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				3619A440558C228C5FC4E54BED43137C /* Products */,
+				7EA8A830B134DC81282AA1A311DB6E0B /* Pods */,
+				9D0DE43BF55AB1D50C894564D578C87D /* Products */,
 				AC8825087DB0410C40E2E380A8B89422 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D627F7AD26DCB135F369745DE402ADEE /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				C1D24BAF6EA9A78DD65501A44250FFA3 /* Core */,
+				851FC31CDE8C45DBD7B0A63AFD8AB3D5 /* Support Files */,
+				AC97C83267AFDB411AA45F7E144977F1 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		D6C38C87D1CB81A47DCD7C100666C987 /* Pods-simplifycommerce_Tests */ = {
@@ -319,39 +433,6 @@
 			);
 			name = "Pods-simplifycommerce_Tests";
 			path = "Target Support Files/Pods-simplifycommerce_Tests";
-			sourceTree = "<group>";
-		};
-		D8575FFA321D327E84BB009AC2748397 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B536A77F80DDF2D1F2127634E54AD09A /* LICENSE */,
-				E10039E8A2315F3C5C49FEE4A74DAC02 /* README.md */,
-				6468F176B4CF82AB78B3E020D1CF40A7 /* simplifycommerce.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FCA85492CD13A3E74FE2F8528EB02327 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7637E3D305E50DF7CF7EBA618C9B9241 /* simplifycommerce.modulemap */,
-				1AF4080AC7014692E333CA042E2ACAD8 /* simplifycommerce-dummy.m */,
-				2A58EF03BF70F3EBA71E6079AB696A8D /* simplifycommerce-Info.plist */,
-				AD596529086F90C15BECE8CD489DCE7E /* simplifycommerce-prefix.pch */,
-				6253C122B41F9C0C712BA8E02573B272 /* simplifycommerce-umbrella.h */,
-				2D7EB53C95CF0FEE5B85D8BEE753897D /* simplifycommerce.debug.xcconfig */,
-				BF1EBB6D7F10C901B7CBE9D66DA56587 /* simplifycommerce.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/simplifycommerce";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,11 +461,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		889A0C7E15E50A52A5AFC6636A3D0E40 /* Headers */ = {
+		5B912D78B7EC942C5DD0C39B4712A485 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D320BEDE964D5BC622442EFD49D71F82 /* simplifycommerce-umbrella.h in Headers */,
+				F6CB0F87252E12E4DADE404477B68B9E /* simplifycommerce-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,18 +537,36 @@
 			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F8F4A89B802DC2BB85683B7FA284FD1E /* simplifycommerce */ = {
+		A03D2193F8C4257E7B185746F60B5E0F /* simplifycommerce-simplifycommerce */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B70616C876DA7994E7C390C03A78644 /* Build configuration list for PBXNativeTarget "simplifycommerce" */;
+			buildConfigurationList = 8F583B82274D0CB3E365AA3DEFF37AC1 /* Build configuration list for PBXNativeTarget "simplifycommerce-simplifycommerce" */;
 			buildPhases = (
-				889A0C7E15E50A52A5AFC6636A3D0E40 /* Headers */,
-				08BBB9C4A4DC0FA6489BDEC535FB76B9 /* Sources */,
-				D9BDAFE0455DC10BBE32C90317E319E1 /* Frameworks */,
-				43DF2B27275969F656CAAA4FB5819428 /* Resources */,
+				02F688D0B14EA37E50330EF79C5F2F63 /* Sources */,
+				195B5FD9501E11198E43FD3BB7C98B4F /* Frameworks */,
+				9B1C3AE9BA0E550A861FD7F6F2EFC68A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "simplifycommerce-simplifycommerce";
+			productName = "simplifycommerce-simplifycommerce";
+			productReference = C9071B24FE8139A1A7ABD7D2FF90DEEA /* simplifycommerce.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F8F4A89B802DC2BB85683B7FA284FD1E /* simplifycommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372D73290B7BF30B9470B1634AA25D50 /* Build configuration list for PBXNativeTarget "simplifycommerce" */;
+			buildPhases = (
+				5B912D78B7EC942C5DD0C39B4712A485 /* Headers */,
+				DD4D0E6A31FFB96E67AE06B2F0F57179 /* Sources */,
+				083A7D1D19E042115635151113D27C83 /* Frameworks */,
+				F2A7C46BEE063A976042A8626B203DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D1C2683116627F4073AED41FB38A10 /* PBXTargetDependency */,
 			);
 			name = simplifycommerce;
 			productName = simplifycommerce;
@@ -482,21 +581,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					006EABDE64FDDF4D57EDC4E655B65768 = {
-						ProvisioningStyle = Automatic;
-					};
-					8C83E86EF7B33844720636A2B6C2BF32 = {
-						ProvisioningStyle = Automatic;
-					};
-					98A98149697C80CEF8D5772791E92E66 = {
-						ProvisioningStyle = Automatic;
-					};
-					F8F4A89B802DC2BB85683B7FA284FD1E = {
-						DevelopmentTeam = 3QKY2Q5SCP;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -507,7 +591,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3619A440558C228C5FC4E54BED43137C /* Products */;
+			productRefGroup = 9D0DE43BF55AB1D50C894564D578C87D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -515,19 +599,13 @@
 				006EABDE64FDDF4D57EDC4E655B65768 /* Pods-simplifycommerce_Example */,
 				8C83E86EF7B33844720636A2B6C2BF32 /* Pods-simplifycommerce_Tests */,
 				F8F4A89B802DC2BB85683B7FA284FD1E /* simplifycommerce */,
+				A03D2193F8C4257E7B185746F60B5E0F /* simplifycommerce-simplifycommerce */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		05CC5460AB8493A1E87BE861EB9E7FD8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43DF2B27275969F656CAAA4FB5819428 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -548,14 +626,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B1C3AE9BA0E550A861FD7F6F2EFC68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CF319E88A9ADDCB5E63DC81E589937 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A7C46BEE063A976042A8626B203DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D13052F648BAD74173D91B8FDE878 /* simplifycommerce.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08BBB9C4A4DC0FA6489BDEC535FB76B9 /* Sources */ = {
+		02F688D0B14EA37E50330EF79C5F2F63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73F9663A2794852F61E80058AA176BD5 /* simplifycommerce-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,9 +684,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD4D0E6A31FFB96E67AE06B2F0F57179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEFBE619105F890CDF8F0736A3E6A15 /* BuildConfig.swift in Sources */,
+				7ACB43E9E9BA7C74F647D77B4D9E1D48 /* Bundle+SDK.swift in Sources */,
+				4B5E88B21DD8C46990A5C5D241E1F352 /* CardBrand.Details.swift in Sources */,
+				11CA5434B6FCC8AB34E230A918EC01C0 /* CardBrand.swift in Sources */,
+				5DCE67CB82AA6D1E2ED960615DF89EDC /* CardEntryView.swift in Sources */,
+				53EEA18D39A1979FB8E0D58602E28044 /* CardEntryView_Internal.swift in Sources */,
+				37568BA27136AF24E1BF670E1F5DF4A3 /* CardEntryViewModel.swift in Sources */,
+				EBDB886EC47F141F0109469CA0E0A76A /* DecoratedTextField.swift in Sources */,
+				5A9C28D0C1E2228E32FEACB53DE17D6A /* ExpiryPickerField.swift in Sources */,
+				0C3D7AD4D54EF1FC0E52666F5FBFD5BF /* FoundationProtocols.swift in Sources */,
+				364F1B8E7B64A9461D3B0C879FC30F54 /* Logger.swift in Sources */,
+				794C74B559C99C505F6E0196E5538CB7 /* LuhnValidator.swift in Sources */,
+				39C62EF35426D05EBC459E6A4CAA3E88 /* Result.swift in Sources */,
+				F47BC2178A9F50200CE8A3F3932A57BA /* Simplify.swift in Sources */,
+				918F97D1DE9A6246C827CB9CD3AB3004 /* Simplify_Internal.swift in Sources */,
+				F20A0A0D03971ACF8D3DD11534A08ADF /* simplifycommerce-dummy.m in Sources */,
+				71495AE966A51E95033C92C54B6DE6A0 /* SimplifyError.swift in Sources */,
+				901640ADFBEFC98910B5CF5B77A7DF46 /* SimplifyMap.swift in Sources */,
+				B7A83C9B6442C60CCC36FD5A007A38E3 /* SimplifyMap_Internal.swift in Sources */,
+				DCEAB79476355270466CF195C58378C3 /* SimplifyResponseHandler.swift in Sources */,
+				B89C06ED878B32A26EE9E6BD59D36E35 /* ThreeDS1WebViewController.swift in Sources */,
+				4D3A1CEF4F5D84F585F648516263EFD2 /* ThreeDS1WebViewController_internal.swift in Sources */,
+				E075C66F7E62164A1744FD5521EE2D6F /* UIView+SuperViewHugging.swift in Sources */,
+				105D46022823131A23AFB5FDA2554EFE /* URLSessionPinner.swift in Sources */,
+				DE803EC90781D9AF0CB7147A14E98984 /* WebKitProtocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		30D1C2683116627F4073AED41FB38A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "simplifycommerce-simplifycommerce";
+			target = A03D2193F8C4257E7B185746F60B5E0F /* simplifycommerce-simplifycommerce */;
+			targetProxy = EAAEC0051FB6A3074078E3F2EC20998C /* PBXContainerItemProxy */;
+		};
 		5437F644C0F04C1039BD07EB6F8E8776 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
@@ -615,63 +746,25 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EEC3678783D816BE5E9DA5471E0983A /* Release */ = {
+		07BFCE7FD405003BB588B4662A9FB705 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF1EBB6D7F10C901B7CBE9D66DA56587 /* simplifycommerce.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3QKY2Q5SCP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/simplifycommerce/simplifycommerce-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/simplifycommerce/simplifycommerce-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/simplifycommerce/simplifycommerce.modulemap";
-				PRODUCT_MODULE_NAME = simplifycommerce;
-				PRODUCT_NAME = simplifycommerce;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		276162AE4C1F37171D53376CC30E3B2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F723050DD5AEA876C25091932BC47619 /* Pods-simplifycommerce_Example.debug.xcconfig */;
+			baseConfigurationReference = 8AF1CAFC8B10862E507E45E6B70B59AE /* Pods-simplifycommerce_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-simplifycommerce_Example/Pods-simplifycommerce_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-simplifycommerce_Example/Pods-simplifycommerce_Example.modulemap";
@@ -680,89 +773,120 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+		0FCA6E44439AD1EB27D6253F9841A051 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			baseConfigurationReference = 8889108BB4E15146FF6DED6576BCDC79 /* simplifycommerce.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7DDFB20BBC9224651DDDFB581C211624 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D7EB53C95CF0FEE5B85D8BEE753897D /* simplifycommerce.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3QKY2Q5SCP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/simplifycommerce/simplifycommerce-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/simplifycommerce/simplifycommerce-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/simplifycommerce/simplifycommerce.modulemap";
 				PRODUCT_MODULE_NAME = simplifycommerce;
 				PRODUCT_NAME = simplifycommerce;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2247DC69E476C0AF37461528742A5726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F723050DD5AEA876C25091932BC47619 /* Pods-simplifycommerce_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-simplifycommerce_Example/Pods-simplifycommerce_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simplifycommerce_Example/Pods-simplifycommerce_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		2A961C4A10C570589BA36D3E123A9387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92485834D0FF2E8302C7ABDD5E51D00 /* Pods-simplifycommerce_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-simplifycommerce_Tests/Pods-simplifycommerce_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simplifycommerce_Tests/Pods-simplifycommerce_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -810,18 +934,86 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		3B3D61C318EBFDDD6A5C5D042D651829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4934F4934A16638128E68D20EB5D309E /* simplifycommerce.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/simplifycommerce";
+				IBSC_MODULE = simplifycommerce;
+				INFOPLIST_FILE = "Target Support Files/simplifycommerce/ResourceBundle-simplifycommerce-simplifycommerce-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_NAME = simplifycommerce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4CC02D95B071EBCDD8A85F02E1319A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4934F4934A16638128E68D20EB5D309E /* simplifycommerce.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/simplifycommerce/simplifycommerce-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/simplifycommerce/simplifycommerce-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/simplifycommerce/simplifycommerce.modulemap";
+				PRODUCT_MODULE_NAME = simplifycommerce;
+				PRODUCT_NAME = simplifycommerce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61F560F170B66900E128B69F9B82E1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8889108BB4E15146FF6DED6576BCDC79 /* simplifycommerce.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/simplifycommerce";
+				IBSC_MODULE = simplifycommerce;
+				INFOPLIST_FILE = "Target Support Files/simplifycommerce/ResourceBundle-simplifycommerce-simplifycommerce-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_NAME = simplifycommerce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -872,7 +1064,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -885,19 +1077,53 @@
 			};
 			name = Debug;
 		};
-		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+		A8E6982C416AE300AC027ED2EF1D06FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = 7A85F1613C0B328585DD5A24C7C79918 /* Pods-simplifycommerce_Tests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-simplifycommerce_Tests/Pods-simplifycommerce_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simplifycommerce_Tests/Pods-simplifycommerce_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2B018A492E513A80E663EC09762EE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5591FBD63609A64B4F1B68746F3A7E60 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -909,8 +1135,6 @@
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -922,130 +1146,46 @@
 			};
 			name = Release;
 		};
-		D37A11E6F19BDB32BB604F2A0DE34DC0 /* Release */ = {
+		EB0A629716628F10A80AB11E89FAB827 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AF1CAFC8B10862E507E45E6B70B59AE /* Pods-simplifycommerce_Example.release.xcconfig */;
+			baseConfigurationReference = 63A023F16F1BF0BEC899C08A40E730B7 /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-simplifycommerce_Example/Pods-simplifycommerce_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-simplifycommerce_Example/Pods-simplifycommerce_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DE7721C833260DA7A35F6F9C336F9132 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A92485834D0FF2E8302C7ABDD5E51D00 /* Pods-simplifycommerce_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-simplifycommerce_Tests/Pods-simplifycommerce_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-simplifycommerce_Tests/Pods-simplifycommerce_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EAAF46B29E9C448219BDA68C065F34EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A85F1613C0B328585DD5A24C7C79918 /* Pods-simplifycommerce_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-simplifycommerce_Tests/Pods-simplifycommerce_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-simplifycommerce_Tests/Pods-simplifycommerce_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B70616C876DA7994E7C390C03A78644 /* Build configuration list for PBXNativeTarget "simplifycommerce" */ = {
+		372D73290B7BF30B9470B1634AA25D50 /* Build configuration list for PBXNativeTarget "simplifycommerce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DDFB20BBC9224651DDDFB581C211624 /* Debug */,
-				1EEC3678783D816BE5E9DA5471E0983A /* Release */,
+				4CC02D95B071EBCDD8A85F02E1319A4A /* Debug */,
+				0FCA6E44439AD1EB27D6253F9841A051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1053,8 +1193,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F583B82274D0CB3E365AA3DEFF37AC1 /* Build configuration list for PBXNativeTarget "simplifycommerce-simplifycommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3D61C318EBFDDD6A5C5D042D651829 /* Debug */,
+				61F560F170B66900E128B69F9B82E1FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1062,8 +1211,8 @@
 		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
-				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+				EB0A629716628F10A80AB11E89FAB827 /* Debug */,
+				D2B018A492E513A80E663EC09762EE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1071,8 +1220,8 @@
 		C38F86269E51B5BF6127A18692D7842D /* Build configuration list for PBXNativeTarget "Pods-simplifycommerce_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				276162AE4C1F37171D53376CC30E3B2F /* Debug */,
-				D37A11E6F19BDB32BB604F2A0DE34DC0 /* Release */,
+				2247DC69E476C0AF37461528742A5726 /* Debug */,
+				07BFCE7FD405003BB588B4662A9FB705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1080,8 +1229,8 @@
 		E181A1092AECB9C9B3195E0D0444D930 /* Build configuration list for PBXNativeTarget "Pods-simplifycommerce_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE7721C833260DA7A35F6F9C336F9132 /* Debug */,
-				EAAF46B29E9C448219BDA68C065F34EC /* Release */,
+				2A961C4A10C570589BA36D3E123A9387 /* Debug */,
+				A8E6982C416AE300AC027ED2EF1D06FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
