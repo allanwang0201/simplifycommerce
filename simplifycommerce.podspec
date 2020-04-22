@@ -36,7 +36,7 @@ simplify commerce payment by commonbank
   }
   s.swift_version = '4.2'
   # s.resource_bundles = {
-  #   'simplifycommerce' => ['simplifycommerce/Assets/*.png']
+  #   'simplifycommerce' => ['simplifycommerce/Classes/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
