@@ -31,9 +31,7 @@ simplify commerce payment by commonbank
    s.platform     = :ios, "9.3"
 
   s.source_files = 'simplifycommerce/Classes/**/*.{swift}'
-  s.resource_bundles = {
-     'simplifycommerce' => ['simplifycommerce/Classes/**/*.{lproj,storyboard,xib,xcassets,json,imageset,png,colorset,appiconset,pdf}']
-  }
+  s.resources = 'simplifycommerce/Classes/**/*.{lproj,storyboard,xib,xcassets,json,imageset,png,colorset,appiconset,pdf}'
   s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'simplifycommerce' => ['simplifycommerce/Classes/*.png']
